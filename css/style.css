@@ -70,3 +70,60 @@ footer .logo-link {
 .footer-contacts .link:focus {
   color: var(--accent-color);
 }
+
+/* Контент страницы Студия */
+/* Секция order */
+.order-section {
+  background-color: var(--tertiary-bg-color);
+  color: var(--secondary-text-color);
+}
+
+.order-section .link {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}
+
+/* Секция advantages */
+.advantages-section {
+  color: var(--title-text-color);
+}
+
+.advantages-section .text {
+  color: var(--primary-text-color);
+}
+
+/* Секция work-description (чем мы занимаемся) */
+.work-description-section {
+  color: var(--title-text-color);
+}
+
+/* Секция team */
+.team-section {
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+}
+
+.team-section .text {
+  color: var(--primary-text-color);
+}
+
+/* Контент страницы Портфолио */
+/* Секция projects */
+.projects-section {
+  color: var(--primary-text-color);
+}
+
+.projects-section .button {
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+}
+
+.projects-section .title {
+  color: var(--title-text-color);
+}
+
+.projects-section .button:hover,
+.projects-section .button:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+}

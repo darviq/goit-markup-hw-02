@@ -1,0 +1,72 @@
+/* Палитра
+фон:
+основной #FFFFFF (белый)
+вторичный #F5F4FA (сероватый)
+третичный #2F303A (ближе к черному)
+
+текст:
+основной #757575 (сероватый)
+заголовки #212121 (ближе к черному)
+вторичный #FFFFFF (белый)
+вторичный с прозрачностью rgba(255, 255, 255, 0.6)
+акцент #2196F3 (голубоватый)
+ */
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --tertiary-bg-color: #2f303a;
+
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --secondary-text-color-alfa: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+}
+
+/* Шапка */
+.logo-link,
+.main-nav .link {
+  color: var(--title-text-color);
+}
+
+.main-nav .link.active {
+  color: var(--accent-color);
+}
+
+.web-word {
+  color: var(--accent-color);
+}
+
+.header-contacts .link {
+  color: var(--primary-text-color);
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus,
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Подвал */
+footer {
+  background-color: var(--tertiary-bg-color);
+  color: var(--secondary-text-color);
+}
+
+footer .logo-link {
+  color: var(--secondary-text-color);
+}
+
+.footer-contacts .link {
+  color: var(--secondary-text-color-alfa);
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--accent-color);
+}
